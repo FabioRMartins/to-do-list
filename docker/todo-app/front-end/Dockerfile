@@ -2,7 +2,7 @@ FROM node:14-alpine
 
 EXPOSE 3000
 
-WORKDIR /myfolder
+WORKDIR /front-end
 
 COPY . ./
 
